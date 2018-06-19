@@ -1,4 +1,5 @@
 # bam
+**warning** (netrw) your hiding list is empty!
 
 > A Vue.js project
 
