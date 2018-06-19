@@ -1,0 +1,2 @@
+webpackJsonp([24],{Rlb2:function(e,a){},xiT7:function(e,a,t){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var n={name:"tetris",components:{appGameIframe:t("MhXg").a},data:function(){return{pagesname:"俄罗斯方块",pagessrc:"static/pages/tetris/index.html"}}},s={render:function(){var e=this,a=e.$createElement;return(e._self._c||a)("app-game-iframe",{attrs:{pagesname:e.pagesname,pagessrc:e.pagessrc}})},staticRenderFns:[]};var r=t("VU/8")(n,s,!1,function(e){t("Rlb2")},null,null);a.default=r.exports}});
+//# sourceMappingURL=24.42575be9dd422141549b.js.map

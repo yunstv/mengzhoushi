@@ -1,0 +1,2 @@
+webpackJsonp([16],{H8K2:function(e,a,n){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var t={name:"tanqiu",components:{appGameIframe:n("MhXg").a},data:function(){return{pagesname:"弹球",pagessrc:"static/pages/tanqiu/index.html"}}},r={render:function(){var e=this,a=e.$createElement;return(e._self._c||a)("app-game-iframe",{attrs:{pagesname:e.pagesname,pagessrc:e.pagessrc}})},staticRenderFns:[]};var s=n("VU/8")(t,r,!1,function(e){n("rPS6")},null,null);a.default=s.exports},rPS6:function(e,a){}});
+//# sourceMappingURL=16.b3273d879661f820b58b.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([13],{"8w/J":function(e,a){},"Ddj+":function(e,a,n){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var t={name:"wuziqi",components:{appGameIframe:n("MhXg").a},data:function(){return{pagesname:"五子棋",pagessrc:"static/pages/wuziqi/index.html"}}},s={render:function(){var e=this,a=e.$createElement;return(e._self._c||a)("app-game-iframe",{attrs:{pagesname:e.pagesname,pagessrc:e.pagessrc}})},staticRenderFns:[]};var r=n("VU/8")(t,s,!1,function(e){n("8w/J")},null,null);a.default=r.exports}});
+//# sourceMappingURL=13.93676c38e7a695af5fb1.js.map
