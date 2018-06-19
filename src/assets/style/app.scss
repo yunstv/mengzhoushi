@@ -1,0 +1,184 @@
+@import './variables.scss';
+
+.app{
+  background: #fdfdfd;
+  .el-aside{
+    padding: 20px 10px 20px 10px;
+  }
+  .el-main{
+    overflow: inherit;
+    &>div{
+      @extend %app-height-100;
+    }
+  }
+  &_components_boxshadow{
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background: #fff;
+  }
+  & &_container_r{
+    padding: 20px 10px 20px 10px;
+  }
+  &, >.el-container{
+    @extend %app-style;
+  }
+  &_header{
+    &_navbar{
+      display: flex;
+      align-items: center;
+    &_popper{
+        padding: 0;
+        margin-top: 2px !important;
+        min-width: 100px;
+      }
+      &_username{
+        @extend %app-marginr-10;
+      }
+      &_username{
+        &_img{
+          border-radius: 50%;
+          display: inline-block;
+          width: 35px;
+          height: 35px;
+          background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA4pJREFUSA3FV81rU0EQ/+1Lnk0/Yii1lVY8eCmUHnsQ9CJ48dCDoCD6RwgiCIKnYr2JUL3qoRcVFKoI4tdBkJ4sWFALitISWrXVaJtoY77WmX3Zj/eS0NTGuuV1Z2dm5zczO/sRgSaalNLLlnAAEkcFMCIlBiDo4yaxJASWJDBDvKlkHNNCiMpGZslO40aACQI8LSTOElhfY00rISeWpcBlcmCCHMhbSZhqCJwtyWMo4wpFsjc8pbkRGU4jhjPJuLhbb4YXZVKUIvtbjssy7vwtKNvkuWxD2SKbUZwQg0FzRdyktJ6IKm5lTOm/3eXjJKWe/AlaKOJcARdbDcowbJNtVzFVZyLmNeXUuMJW0yKG43rNFTBXL3n0bitr2oyTBJbu2oFBrnaVat4ymwVdeFvEg4k1ZL9uuGWNT4zBWMzwKFqP96mRNklM3/+FNy/ymHvecKvWtRScCdJTJ1Izh8PsqwLS8yVjrFgMCrRcCnoWfCQnVuaKRqcewVh8Cnp8DNZTcHmfv1QweT2HG9eyhk3rpMqVMqZ4mYUSno5l8ORcxug0JAjTo+kjUQW2tZyxa5fLVugYBtZ/Wh7vETA4f9TyqyQjVn7VZiWXLiueUnD+MSatcfWwdwSTj/I4fzWHmdc2bZKtRpuK1vKVH1Wd9LN1PBxdxOz49+gs9nnAM7eMI15cqZCQrp1lG6FKraOjyGq0ms0uKF+o//GhSMkQWHtf0GLb080WOrm0xMZgKSVzhwyqUIJUs1zwnx0aJ7Rdp5dcXEsOQ5FqMhlgQ7qpIrLDANRFIcWg0AIl7UTdTEl88mhuDfD+IR/dSQ/Dg3GNq9Km0xgwCYAZLlNhBmnpP5hAoi+GPUc6jA1NMGac1GaIcUgzuT884qvP5bH9cIABgBsR42o/eoZ9jD4OHimuHaZJ5yUX11RUEB339sYQo2ro67cZULDkia721EAcgjZn9z4/Or127OFenN9IdAcvkxcNnzaplMCFsW60JYL1cy3pOujc5eHUrd3wO2p1Qvr0NOoiTFpjUeE3kiusR+8k8LY2K+lM8YaQaE9aoI4eD367HVttSzEWYyotqsZNX4tr3yqYny1giIrIdxyyELUUgZlr0bi33Q8Bc4Dwy4C8uFTrZ2s4bFu/PtiiiZgHlPL/89ijRZfqNdjCyDnS6AuzJmJm6PavH/ShVGtQ3XO1b/tPGA3OPTnQ8h9tfwCKb3cuCbOAqgAAAABJRU5ErkJggg==);
+          background-size: contain;
+          box-shadow: 0px 1px 7px 7px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+  &_sidebar{
+    position: relative;
+    height: 100%;
+    &_arrow{
+      font-size: 32px;
+      text-align: center;
+    }
+    &_game{
+      padding: 10px;
+      & h4{
+        margin: 10px 0 10px;
+      }
+      & p{
+        position: relative;
+        margin: 10px 0 0 3px;
+        cursor: pointer;
+        color: #666;
+        &::before{
+          content: '';
+          position: absolute;
+          bottom: -2px;
+          width: 0;
+          left: 0;
+          height: 2px;
+          background: $color-primary;
+          transition: width .3s ease-in-out;
+        }
+        &:hover, &.on {
+          color: $color-primary;
+          &::before{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+.media {
+  position: relative;
+  // Proper spacing between instances of .media
+  margin-top: 15px;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.width80 {
+  width: 90px;
+  height: 90px;
+  img {
+    width: 100%;
+    height: 100%
+  }
+}
+
+.media,
+.media-body {
+  zoom: 1;
+  overflow: hidden;
+}
+
+.media-body {
+  width: 10000px;
+}
+
+.media-object {
+  display: block; // Fix collapse in webkit from max-width: 100% and display: table-cell.
+  &.img-thumbnail {
+    max-width: none;
+  }
+}
+
+.media-right,
+.media>.pull-right {
+  padding-left: 10px;
+}
+
+.media-left,
+.media>.pull-left {
+  padding-right: 10px;
+}
+
+.media-left,
+.media-right,
+.media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.media-middle {
+  vertical-align: middle;
+}
+
+.media-bottom {
+  vertical-align: bottom;
+} // Reset margins on headings for tighter default spacing
+.media-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+} // Media list variation
+//
+// Undo default ul/ol styles
+.media-list {
+  padding-left: 0;
+  list-style: none;
+}
+.marginT-Bmin{
+  margin: 0;
+}
+.iFD-max {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 42px;
+  z-index: 999;
+}
+.imax {
+  position: fixed !important;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  background: #fff;
+}
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
+
+
+
+
