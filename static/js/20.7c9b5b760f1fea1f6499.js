@@ -1,2 +1,0 @@
-webpackJsonp([20],{"7hUC":function(e,a){},oofD:function(e,a,n){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var t={name:"chaojimali",components:{appGameIframe:n("MhXg").a},data:function(){return{pagesname:"超级玛丽-精简版",pagessrc:"static/pages/chaojimali/index.html"}}},s={render:function(){var e=this,a=e.$createElement;return(e._self._c||a)("app-game-iframe",{attrs:{pagesname:e.pagesname,pagessrc:e.pagessrc}})},staticRenderFns:[]};var r=n("VU/8")(t,s,!1,function(e){n("7hUC")},null,null);a.default=r.exports}});
-//# sourceMappingURL=20.7c9b5b760f1fea1f6499.js.map

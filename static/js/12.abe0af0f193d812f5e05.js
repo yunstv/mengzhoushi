@@ -1,0 +1,2 @@
+webpackJsonp([12],{"/jcD":function(e,a,n){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var t={name:"xiangqi",components:{appGameIframe:n("MhXg").a},data:function(){return{pagesname:"中国象棋",pagessrc:"static/pages/xiangqi/index.html"}}},s={render:function(){var e=this,a=e.$createElement;return(e._self._c||a)("app-game-iframe",{attrs:{pagesname:e.pagesname,pagessrc:e.pagessrc}})},staticRenderFns:[]};var r=n("VU/8")(t,s,!1,function(e){n("8vb+")},null,null);a.default=r.exports},"8vb+":function(e,a){}});
+//# sourceMappingURL=12.abe0af0f193d812f5e05.js.map

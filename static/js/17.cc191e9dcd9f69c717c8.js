@@ -1,2 +1,0 @@
-webpackJsonp([17],{"C/ws":function(e,a,n){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var t={name:"takedazhan",components:{appGameIframe:n("MhXg").a},data:function(){return{pagesname:"坦克大战",pagessrc:"static/pages/tankedazhan/index.html"}}},s={render:function(){var e=this,a=e.$createElement;return(e._self._c||a)("app-game-iframe",{attrs:{pagesname:e.pagesname,pagessrc:e.pagessrc}})},staticRenderFns:[]};var r=n("VU/8")(t,s,!1,function(e){n("xgil")},null,null);a.default=r.exports},xgil:function(e,a){}});
-//# sourceMappingURL=17.cc191e9dcd9f69c717c8.js.map

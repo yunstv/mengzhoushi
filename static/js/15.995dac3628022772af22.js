@@ -1,2 +1,0 @@
-webpackJsonp([15],{"/FpE":function(e,a){},"4GoR":function(e,a,n){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var t={name:"fruit-ninja",components:{appGameIframe:n("MhXg").a},data:function(){return{pagesname:"水果忍者",pagessrc:"static/pages/fruit-ninja/index.html"}}},r={render:function(){var e=this,a=e.$createElement;return(e._self._c||a)("app-game-iframe",{attrs:{pagesname:e.pagesname,pagessrc:e.pagessrc}})},staticRenderFns:[]};var s=n("VU/8")(t,r,!1,function(e){n("/FpE")},null,null);a.default=s.exports}});
-//# sourceMappingURL=15.995dac3628022772af22.js.map

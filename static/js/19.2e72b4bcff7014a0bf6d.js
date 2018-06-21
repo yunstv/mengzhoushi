@@ -1,0 +1,2 @@
+webpackJsonp([19],{"DJv+":function(e,n){},poIj:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var a={render:function(){var e=this,n=e.$createElement;return(e._self._c||n)("div",{staticClass:"app_sidebar_index"},[e._v("\n  home\n")])},staticRenderFns:[]};var r=t("VU/8")({name:"sidebar-home",data:function(){return{}},methods:{}},a,!1,function(e){t("DJv+")},"data-v-35aa2480",null);n.default=r.exports}});
+//# sourceMappingURL=19.2e72b4bcff7014a0bf6d.js.map
