@@ -4,6 +4,7 @@
   "description": "A Vue.js project",
   "author": "zy <yunstv@163.com>",
   "private": true,
+  "homepage": "http://yunstv.cn/mengzhoushi",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
