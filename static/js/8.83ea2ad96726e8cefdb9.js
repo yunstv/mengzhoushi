@@ -1,0 +1,2 @@
+webpackJsonp([8],{"1ahO":function(e,a){},"bF/u":function(e,a,n){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var t={name:"flappy",components:{appGameIframe:n("MhXg").a},data:function(){return{pagesname:"飞一飞",pagessrc:"static/pages/flappy/index.html"}}},s={render:function(){var e=this,a=e.$createElement;return(e._self._c||a)("app-game-iframe",{attrs:{pagesname:e.pagesname,pagessrc:e.pagessrc}})},staticRenderFns:[]};var r=n("VU/8")(t,s,!1,function(e){n("1ahO")},null,null);a.default=r.exports}});
+//# sourceMappingURL=8.83ea2ad96726e8cefdb9.js.map
