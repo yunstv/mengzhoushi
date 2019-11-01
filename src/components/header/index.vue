@@ -2,7 +2,7 @@
   <div class="app_header">
     <div class="app_header_brand">
       <div class="pull-left app_logo">
-        <span class="app_brand">梦周十</span>
+        <span class="app_brand">@梦周十</span>
         <p>迷离在宇宙中的尘埃</p>
       </div>
       <div class="pull-left app_navigation">
